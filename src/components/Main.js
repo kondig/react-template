@@ -13,7 +13,7 @@ const Main = (props) => {
     <div>
       <Parallax height='95vh' bgimage={head} icon={logo} />
       <Section1 />
-      <Parallax height='50vh' bgimage={logo} sectionTitle={"Section title"} iconDisplay={"none"} id={"s2"} />
+      <Parallax height='50vh' bgimage={logo} sectionTitle={"Section title"} iconDisplay={"none"} id={"s1"} />
       <Section2 />
     </div>
   )

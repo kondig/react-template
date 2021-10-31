@@ -16,7 +16,7 @@ const primary = '#673ab7';
 
 const Footer = (props) => {
   return (
-    <div className="App-footer">
+    <div className="App-footer" id="Contact">
         <Container maxWidth="md" >
             <Typography variant="h4" color="primary">
                 Contact us

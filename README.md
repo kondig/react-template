@@ -4,12 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Structure
 
-- header
-    appbar / drawer
-- main
-    section1: cards
-- footer
-    contact links
+- header  
+    * appbar / drawer  
+- main  
+    * section(s) x2  
+- footer  
+    * contact links  
+    * scroll-top  
 
 
 ## Credits/Dependencies

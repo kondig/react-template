@@ -53,21 +53,21 @@ export default function Drawer() {
       <List>
           <ListItem button key={'Section 1'} sx={{ margin: '20px 0px',":hover": { backgroundColor: secondary }}} >
             <ListItemIcon><HomeWorkIcon /></ListItemIcon>
-            <Link href="#NMH" underline="none" color="primary"
+            <Link href="#s1" underline="none" color="primary"
                   sx={{ fontSize: '1.4rem',":hover": { color: primary } }}>
                   Section 1
             </Link>
           </ListItem>
           <ListItem button key={'Section 2'} sx={{ margin: '20px 0px',":hover": { backgroundColor: secondary }}} >
             <ListItemIcon><BusinessIcon /></ListItemIcon>
-            <Link href="#" underline="none" color="primary"
+            <Link href="#s2" underline="none" color="primary"
                   sx={{ fontSize: '1.4rem',":hover": { color: primary } }}>
                   Section 2
             </Link>
           </ListItem>
           <ListItem button key={'Section 3'} sx={{ margin: '20px 0px',":hover": { backgroundColor: secondary }}} >
             <ListItemIcon><RoofingIcon /></ListItemIcon>
-            <Link href="#" underline="none" color="primary"
+            <Link href="#s3" underline="none" color="primary"
                   sx={{ fontSize: '1.4rem',":hover": { color: primary } }}>
                   Section 3
             </Link>
