@@ -9,7 +9,6 @@ import Typography from '@mui/material/Typography';
 
 function CardBody(props) {
   const direction = props.direction;
-  const titleColor = '#f50057';
   return (
     <div>
       <Box display={{ xs: 'block', md: 'none', lg: 'none', xl: 'none' }}>

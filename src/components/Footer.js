@@ -2,7 +2,6 @@ import * as React from 'react';
 import FontAwesome from 'react-fontawesome';
 import AppBar from '@mui/material/AppBar';
 import Container from '@mui/material/Container';
-import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Fab from '@mui/material/Fab';
@@ -13,7 +12,7 @@ import logo from '../logo.svg';
 
 const bg = '#000000';
 const primary = '#673ab7';
-const secondary = '#4caf50';
+// const secondary = '#4caf50';
 
 const Footer = (props) => {
   return (

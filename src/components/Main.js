@@ -1,18 +1,20 @@
 
-import logo from '../logo.svg';
+
 import {Section1} from './Section1';
-import {ScrollTop} from './functional/ScrollTop';
+import {Section2} from './Section2';
 import {Parallax} from './functional/Parallax';
-import Fab from '@mui/material/Fab';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+
+
+import head from '../logo.svg';
+import logo from '../logo.svg';
 
 const Main = (props) => {
   return (
     <div>
-      <Parallax height='50vh' bgimage={logo} />
+      <Parallax height='95vh' bgimage={head} icon={logo} />
       <Section1 />
-      <img src={logo} className="App-logo" alt="logo" />
-      <Parallax height='30vh' bgimage={logo} />      
+      <Parallax height='50vh' bgimage={logo} sectionTitle={"Section title"} iconDisplay={"none"} id={"s2"} />
+      <Section2 />
     </div>
   )
 }

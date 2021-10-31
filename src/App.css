@@ -19,7 +19,7 @@
   color: #61dafb;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo, .logo-lg {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -48,9 +48,8 @@
   color: white;
   position: relative;
 }
-.logo-sm {
-    width: 10vmin;
-}
+.logo-sm { width: 10vmin; }
+.logo-lg { width: 30vmin; }
 .icon:hover {
     color: var(--primary) !important;
 }
