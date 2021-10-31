@@ -1,18 +1,13 @@
 import * as React from 'react';
-import { useTheme } from '@mui/material/styles';
+// import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
-import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
 
 
 function CardBody(props) {
-  const theme = useTheme();
   const direction = props.direction;
   const titleColor = '#f50057';
   return (
@@ -39,7 +34,7 @@ function CardBody(props) {
         </Card>
       </Box>
       <Box boxShadow={0} display={{ xs: 'none', md: 'block', lg: 'block', xl: 'block' }}>
-        {direction == "LR" &&
+        {direction === "LR" &&
           <Card sx={{ display: 'flex', margin: '20px auto', justifyContent: 'space-between', width: '80%'}}>
             <Box sx={{ display: 'flex', flexDirection: 'column', width: '65%' }} >
               <CardContent sx={{  }}>
@@ -60,7 +55,7 @@ function CardBody(props) {
             />
           </Card>
         }
-        {direction == "RL" &&
+        {direction === "RL" &&
           <Card sx={{ display: 'flex', margin: '20px auto', justifyContent: 'space-between', width: '80%'}}>
             <CardMedia
               component="img"
@@ -87,11 +82,11 @@ function CardBody(props) {
 }
 
 class CardComponent extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+  // constructor(props) {
+  //   super(props)
+  // }
   render() {
-    const { title, desc, image, alt, direction } = this.props;
+    const { title, desc, image, direction } = this.props;
     return (
       <div>
         <CardBody

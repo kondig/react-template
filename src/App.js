@@ -11,11 +11,11 @@ import { green } from '@mui/material/colors';
 const theme = createTheme({
   palette: {
     primary: {
-      main: purple[500],
+      main: '#673ab7',
       dark: purple[900]
     },
     secondary: {
-      main: '#11cb5f',
+      main: green[500],
       dark: green[900]
     },
   },
